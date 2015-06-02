@@ -2,6 +2,8 @@
 <p><?= $this->Html->link('Add Article', ['action' => 'add']) ?></p>
 
 <!-- Here's where we loop through our $articles query object, printing out article info -->
+<!-- Here's where we loop through our $articles query object, printing out article info -->
+<!-- Here's where we loop through our $articles query object, printing out article info -->
 <table>
     <tr>
         <th>Id</th>
