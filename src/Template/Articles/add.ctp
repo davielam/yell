@@ -1,5 +1,3 @@
-<!-- File: src/Template/Articles/add.ctp -->
-
 <h1>Add Article</h1>
 <?php
     echo $this->Form->create($article);
