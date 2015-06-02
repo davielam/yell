@@ -1,5 +1,7 @@
 <h1>Blog articles</h1>
 <p><?= $this->Html->link('Add Article', ['action' => 'add']) ?></p>
+
+<!-- Here's where we loop through our $articles query object, printing out article info -->
 <table>
     <tr>
         <th>Id</th>
@@ -7,8 +9,6 @@
         <th>Created</th>
         <th>Actions</th>
     </tr>
-
-<!-- Here's where we loop through our $articles query object, printing out article info -->
 
     <?php foreach ($articles as $article): ?>
     <tr>
